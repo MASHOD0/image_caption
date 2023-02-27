@@ -31,12 +31,16 @@ worksample for listed.inc
 - This served as the basis to choose the parameters for the `salesforce blip image captioning large model`
 
 ## Solution
+- A Simple command line application that can be run by running [`runner.py`](/runner.py)
+
 ### Salesforce Blip image captioning large
 - **BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation** is a pre-trained model for image captioning.
 - The model is trained on the [MS COCO](https://cocodataset.org/#home) dataset.
 - The model is trained on the `large` version of the [ViT](https://arxiv.org/abs/2010.11929) architecture.
 
+
 ### experimentation with repetition penalty on the `salesforce blip image captioning large model`:
+- Script used for experimentation ()
 kwargs
 ```
 max_length = 512  # initial 16

@@ -206,6 +206,7 @@ execution time: 97.09602332115173
 - OS: Windows 10 Pro
 
 ## Improvements and Conclusion
+- Create a GUI user interface using flask or tkinter, this will make the application more user friendly.
 - The model can be improved by using a larger dataset and training it for a longer period of time.
 - The model can be improved by using a larger model.
 - The runtimes can be improved by using a GPU.

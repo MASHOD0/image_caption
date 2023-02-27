@@ -5,7 +5,7 @@ from Model import predict
 import os
 import time
 
-path = r"C:\Users\mashh\Documents\git\listed_image_caption\inputs"
+path = r"C:\Users\mashh\Documents\git\listed_image_caption\inputs" #sets path of the input folder
 image_file_format = ['.png', '.jpg', '.jpeg']
 
 if __name__ == '__main__':

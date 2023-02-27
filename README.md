@@ -22,6 +22,7 @@ worksample for listed.inc
 - Use the `nlpconnect/vit-gpt2-image-captioning` model to generate captions for the images.
 - [nlpconnect/vit-gpt2-image-captioning](https://huggingface.co/nlpconnect/vit-gpt2-image-captioning) model is one of the most downloaded model on the huggingface model hub. It has over 1.1 million downloads.
 - Tried optimizing the parameters for the model but the expected accuracy was not attained here are some the experiments conducted 
+- [the script used in generating the results](nlpconnect-vit-gpt-2-captioning.py)
 #### Results of the `vit-gpt2-image-captioning` model
 - `temprature` adjustments : (https://docs.google.com/spreadsheets/d/1yz25PL-s2VbGVhij0wr9SMotuXexYrgGU-svi4aFIic/edit?usp=sharing)
 - experimentation with `top_k` parameter: (https://docs.google.com/spreadsheets/d/1Wfhxj-4AX5WQpGO2v_0B9e0NspoHOsERJw229llngbY/edit?usp=sharing)
@@ -40,8 +41,8 @@ worksample for listed.inc
 
 
 ### experimentation with repetition penalty on the `salesforce blip image captioning large model`:
-- Script used for experimentation ()
-kwargs
+- [Script used for experimentation ](salesforce_blip_image_captioning_large.py)
+- kwargs
 ```
 max_length = 512  # initial 16
 num_beams = 10  # initial 4
@@ -56,13 +57,13 @@ do_sample = True
 output_scores = True
 diversity_penalty = 0.001
 ```
-output 
+- output 
 ```
 of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of 
 of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of 
 of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of 
 ```
-kwargs
+- kwargs
 ```
 max_length = 512  # initial 16
 num_beams = 10  # initial 4
@@ -78,13 +79,13 @@ output_scores = True
 diversity_penalty = 1.0
 
 ```
-output
+- output
 ```
 there are two horses that are standing next to each other in a field
 there are two horses that are standing next to each other in the middle of a field
 there are two horses that are standing next to each other in the middle of the field
 ```
-kwargs
+- kwargs
 ```max_length = 512  
     num_beams = 10  
     num_beam_groups = 4
@@ -98,7 +99,7 @@ kwargs
     output_scores = True
     diversity_penalty = 4.5
 ```
-output
+- output
 ```
 there are two horses that are standing next to each other in a field
 there are two horses that are standing next to each other in the middle of a field

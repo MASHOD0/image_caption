@@ -30,8 +30,8 @@ worksample for listed.inc
 #### Outcomes
 - This served as the basis to choose the parameters for the `salesforce blip image captioning large model`
 
-
-## Salesforce Blip image captioning large
+## Solution
+### Salesforce Blip image captioning large
 - **BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation** is a pre-trained model for image captioning.
 - The model is trained on the [MS COCO](https://cocodataset.org/#home) dataset.
 - The model is trained on the `large` version of the [ViT](https://arxiv.org/abs/2010.11929) architecture.

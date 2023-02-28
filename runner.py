@@ -5,13 +5,18 @@ from Model import predict
 import os
 import time
 
-path = r"C:\Users\mashh\Documents\git\listed_image_caption\inputs" #sets path of the input folder
+path = r"C:\Users\mashh\Documents\git\listed_image_caption\inputs"  # sets path of the input folder
 image_file_format = ['.png', '.jpg', '.jpeg']
 
 if __name__ == '__main__':
 
     print("store the files in the inputs folder")
-    num_return_sequences = int(input("enter the number of return sequences:"))
+    alt_path = input("enter the path for the input folder(leave empty if path already provided): ")
+
+    if alt_path != '':
+        path = alt_path
+
+    num_return_sequences = int(input("enter the number of return sequences: "))
 
     start = time.time()
 

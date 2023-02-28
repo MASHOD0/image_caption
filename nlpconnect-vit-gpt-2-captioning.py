@@ -38,12 +38,13 @@ if __name__ == '__main__':
     model.to(device)
 
     # csv parameters
-    feilds = ['serial_number', 'max_length', 'num_beams', 'num_return_sequences', 'temperature', 'repetition_penalty', 'top_k', 'bad_words_ids', 'do_sample', 'image', 'sentence1', 'sentence2', 'sentence3']
+    feilds = ['serial_number', 'max_length', 'num_beams', 'num_return_sequences', 'temperature', 'repetition_penalty',
+              'top_k', 'bad_words_ids', 'do_sample', 'image', 'sentence1', 'sentence2', 'sentence3']
     filename = 'full_test_1.csv'
     count = 0
 
     # initial parameters
-    max_length = 512  #dimensionality of transformers
+    max_length = 512  # dimensionality of transformers
     num_beams = 4
     num_return_sequences = 3
     temperature = 1.0

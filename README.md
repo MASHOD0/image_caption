@@ -10,7 +10,7 @@ worksample for listed.inc
 - Use the `repetition_penalty` parameter to penalize the model for repeating the same words.
 - Use the `diversity_penalty` parameter to penalize the model for generating similar captions.
 - set the `num_beams` parameter to twice the number of return sequences to generate more diverse captions.
-- Create a simple cli interface to take the number of sequences as input and generate captions for the images in the `inputs\` folder.
+- Create a simple cli interface to take the number of sequences as input and generate captions for the images in the `inputs/` folder.
 ### Initial approach
 #### 1. Train a  model on the Fliker8k dataset
 - Train a image captioning model using CNN and Transformer architecture on the Fliker8k dataset.

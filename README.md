@@ -1,5 +1,4 @@
-# listed_image_caption
-worksample for listed.inc
+# image caption
 ## Problem Statement
 - Create an AI tool that creates captions based on the image provided by the user. Should also have the option to generate multiple captions based on the image.
 - Provide an interface where the user can come and upload images and get AI generated captions.
